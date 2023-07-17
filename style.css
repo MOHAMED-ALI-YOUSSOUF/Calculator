@@ -100,7 +100,7 @@ ul li:nth-child(9){
     cursor: pointer;
 }
 form input.equal{
-    width: 140px;
+    font-size: 25px;
 }
 form .display{
     display: flex;
@@ -115,7 +115,8 @@ form .display input{
     border: 1px solid rgb(128, 111, 111);
 }
 .operator{
-    color: crimson;
+    color: rgb(15, 219, 123)!important;
+    
 }
 
 
