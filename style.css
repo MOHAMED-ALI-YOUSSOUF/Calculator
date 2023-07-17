@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    height: 100vh;
+}
 header{
     height: 30vh;
     background: #222;
@@ -85,7 +88,7 @@ ul li:nth-child(9){
 }
 .container form input{
     width: 60px;
-    height: 60px;
+    height:60px;
     margin: 1px;
     padding: 20px;
     background: transparent;
@@ -109,6 +112,7 @@ form .display input{
     flex: 1;
     font-size: 45px;
     box-shadow: none;
+    border: 1px solid rgb(128, 111, 111);
 }
 .operator{
     color: crimson;
